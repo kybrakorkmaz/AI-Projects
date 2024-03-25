@@ -1,0 +1,141 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+header.banner {
+    background-color: #01041a;
+    padding: 20px;
+}
+
+header h1 {
+    color: #ffffff;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666;
+}
+nav a:hover {
+    text-decoration: none;
+    /* Hover edildiğinde varsayılan dekorasyonu kaldırır */
+    color: #C0C0C0;
+    /* Hover edildiğinde metin rengini gümüş yapar */
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+aside {
+    color: white;
+    width: 30%;
+    background-color: #01041a;
+    padding: 20px;
+    flex: 0 0 30%;
+    margin-left: 10em;
+    /* Boşluk eklemek için */
+}
+
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #01041a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* Logo stilini ayarla */
+.logo img {
+    max-width: 100%;
+    /* Logonun genişliği websitesini sarsın */
+    max-height: 300px;
+    /* Yükseklik 300 pikselden fazla olmasın */
+    display: block;
+    /* Dikey hizalama için */
+    margin: auto;
+    /* Ortalama için */
+}
+
+/* Banner stilini ayarla */
+.banner {
+    background-color: #f0f0f0;
+    /* Arka plan rengi */
+    padding: 20px;
+    /* Kenar boşluğu */
+    text-align: center;
+    /* Metni ortala */
+}
+
+.banner h1 {
+    margin-top: 20px;
+    /* Site adının üst boşluğu */
+}
+
+.banner nav ul {
+    margin-top: 20px;
+    /* Menü öğelerinin üst boşluğu */
+}
+
+.banner nav ul li {
+    display: inline;
+    /* Menü öğelerini yan yana göster */
+    margin-right: 20px;
+    /* Menü öğeleri arasındaki boşluk */
+}
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+

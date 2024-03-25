@@ -1,0 +1,52 @@
+1-)Uzman bir front-end developersın.
+Senden bir websitesi geliştirmen bekleniyor. Bu websitenin tasarımı için kullanalabileceklerin HTML, CSS ve CDN için ise Bootstrap ve Javascipt.
+Bootstrap için twitter bootstrap kullanabilirsin ve websiteni geliştirirken portfolio, galeri tarzında bir websitesi olsun. 
+Kodların için bir açıklama yapman istenmiyor. Dediklerimi anladın mı? Anladıysan evet veya hayır de, herhangi bir açıklamada bulunma.
+
+2-)Bir sanatçı için websitesi geliştreceksin. Bu websitesinde sanatçı yapmış olduğu çizimlerini sergileyecek. 
+Bu websitesinde header, main, nav, section, article, aside, footer tagları bulunacak. Websitesinde paylaşılan resimlerin akışı 3x3 lük bir akışı bulunmalı. 
+Yani her yeni bir çizim websitesine eklendiğinde ilk 1 satırın 3 sütunu dolacak ve alt satıra geçecek, ikinci satırın 3 sütunu dolacak ve son satıra geçecek. 
+Yeni bir resim eklendiğinde ise en sütunun yani ilk sütunun göründüğü yere ikinci sütun görünecek. Bu şekilde akan dinamik bir yapı olacak. Websitenin sağ 
+tarafındaki sidebar kısmında saantçının kendi profil fotografı ve ve fotoğrafının altında ise kısa bir hakkımda yazısı bulunmalı. Yazacak olduğun websitesi 
+responsive özelliğine sahip olmalı. Ayrıca eklenecek resimlere imleç yaklaşıtında resimler hover edilmeli. Eklenen resimlerin boyutu 400x500 olmalı ve bu boyuta 
+getirilirken kırpılmamalı. Kodun modüleritesi açısından css ve html kodlarını ayrı yazmanı istiyorum. Oluşturacak olduğun websitesinin tasarımı dijital barok 
+tarzında çizim yapacak bir sanatçıya ait olacağı için websitesi için seçilecek tonlar yumuşak olmalı ama renkler kahverengi, kırmızı ve grinin koyu koyu tonları 
+ağırlığında olmalı ama dediğim gibi bu renklerin soft yani açık palet tonları olmalı. 
+kodları yazarken hiçbir açıklamada bulunma
+
+3-)gallery bölümüne 3 resmin yan yana durduğu ama satır olarak da 3ü açmayacak şekilde sergilendiği bir grid oluştur bu grid divlerden oluşsun, 
+responsive özelliğine sahip olsun. Bu ersposive özelliği için twitter bootstrap kullan.
+
+4-)resimlerin boyutu 400x500 olsun ve websitenin footer kısmı sayfanın en alt kısmına yapışık bulunsun. scroll hareket ettiğinde yerinden oynamasın. 
+Sayfa için bir logo bölümü oluştur. Sayfanın header kısmında görünsün. Footer kısmında sosyal medya ikonları bulunsun. Bu ikonlara tıklandığında sosyal 
+medyaya ulaşılsın. Bu sosyal medyalar facebook, twitter, instagram.
+
+5-)footer kısmı scroll ile birlikte hareket etmesin sadece sayfanın en altında kalsın. Header kısmına eklediğin logoyu head kısmına ekle. 
+
+6-)eklenen resimlerin boyutu 400x500 yükseklikxgenişlik şeklinde olsun, css uzantılı yaz
+
+7-)resim ekleme yerine 6 adet resim ekle
+
+8-)logo body tag içerisinde olmasın, head tag içerisinde olsun, websitesinin adının yazdığı kısımda görünsün
+
+9-)htmlin head tag kısmına icon kısmı ekle, logo yazan kısmı websitesinde banner şeklinde göster
+
+10-)sitenin logosu olsun bu logo afiş şeklinde header kısmında yer alsın ve genişlik olarak websitesini sarsın, yükseklik olarak 300 pikseli aşmasın.
+
+11-)style olarak yazdıklarını css dosyası içerisine yaz
+
+12-)sosyal medya ikonlarının boyutu 50x50 olsun radius 2 olsun ve imleç gelince hover aksiyonu göstersin
+
+13-)galeriyi grid şeklinde gösterme, tam fit etsin resimler
+
+14-)galeri display kısmı flex olsun ve aside ile arasında boşluk bulunsun
+
+15-)navigatordaki anasayfa vb özellikleri hyperlinklerinde dekorasyon kalksın, hover edildiklerinde yazı etrafı parlak gümüş ile hover edilsin
+
+16-)navigatördeki içerikler hover edildiğinde dekorasyon kısmını kaldır ve renk kısmını gümüş yap
+
+17-)navigatörde sadece tag adı bulunmakta herhangi bir class adı bulunmamakta 
+
+18-)aside kısmındaki metin yazılarına beyaz renk ata
+
+
